@@ -5,7 +5,8 @@
     width: auto;
   
  }
- 
+ /* Header*/
+
 .banner{ 
     width: 100%;
 }.main-header {
@@ -135,38 +136,42 @@ form.search-bar{
     border: none;
     outline: none;
     font-style: none;
-}.nuevouser{
+}
+/* MAIN */
+.nuevouser{
     width: 100%;
     background-color: #ebebeb;
-    margin: 0 auto ;
     width: 100%;
     height: 54vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 18px;
+
+
     
 }
-.user{
+.relleno{
     margin: 100px;
     margin-top: 28px;
-    width: 46%;
+    width:80%;
     border-radius: 0.5em;
     height: 35px;
+    border-radius: 2em;
 }
-.contraseña{
-    margin: 100px;
-    margin-top: 28px;
-    width: 46%;
-    border-radius: 0.5em;
-    height: 35px;
-}
+
+ 
 .botonfinal{
     background-color: #003f88;
     font-size: 17px;
     color: white;
     min-width: 47%;
     padding: 10px;
+}
+/* FOOTER */
+.footer-final{ 
+    display: block;
 }
 
 
@@ -176,6 +181,7 @@ form.search-bar{
 
 
 @media  (min-width: 768px) {
+    /* HEADER */
     .main-header-top-bar{
         display: flex;
         justify-content: space-between;
@@ -242,12 +248,26 @@ form.search-bar{
     .main-navbar ul li {
         margin: 0 5px
     }
-    .parte-final{
-        display:flex;
+    /*main*/
+    .nuevouser{
+        width: 100%;
+        background-color: #ebebeb;
+        width: 100%;
+        height: 54vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 18px;
+    
+    
         
     }
+    /*FOOTER*/
+   
  }
 @media  (min-width: 1024px) {
+    /*HEADER*/
 .main-header-top-bar, .main-navbar{
     max-width: 1200px;
     margin: auto;
@@ -271,7 +291,18 @@ form.search-bar{
 .main-navbar a {
     font-size: 19px
 }
-.parte-final{
+/*MAIN */
+.relleno{
+    margin: 100px;
+    margin-top: 28px;
+    width:80%;
+    border-radius: 0.5em;
+    height: 50px;
+    border-radius: 2em;
+}
+/*FOOTER*/
+
+.footer-final{
     display:flex;
     
 }
