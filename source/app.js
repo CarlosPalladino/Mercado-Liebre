@@ -8,8 +8,8 @@ const public = path.resolve(__dirname, '../public')
 
 app.use(express.static(public));
 
-app.get("/", (req, res) => res.sendFile(path.resolve(__dirname, "./source/views/home.html")));
+app.get("/", (req, res) => res.sendFile(path.resolve(__dirname, "./views/home.html")));
 
-app.get('/login', (req, res) => res.sendFile(path.resolve(__dirname, './source/views/login.html')))
+app.get('/login', (req, res) => res.sendFile(path.resolve(__dirname, './views/login.html')))
 
-app.get('/register', (req, res) => res.sendFile(path.resolve(__dirname, './source/views/register.html')))
+app.get('/register', (req, res) => res.sendFile(path.resolve(__dirname, './views/register.html')))
