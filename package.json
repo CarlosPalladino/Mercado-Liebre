@@ -7,7 +7,7 @@
   },
   "name": "mercado-libre",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "source/app.js",
   "scripts": {
     "test": "node source/app.js"
   },
