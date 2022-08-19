@@ -6,7 +6,7 @@ app.listen(process.env.PORT || 2020, console.log("Servidor corriendo en el puert
 
 const public = path.resolve(__dirname, '../public')
 
-app.use(express.static(public));
+app.use(express.static(public)); 
 
 app.get("/", (req, res) => res.sendFile(path.resolve(__dirname, "./views/home.html")));
 
