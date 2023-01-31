@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
-app.listen(process.env.PORT || 2020, console.log("Servidor corriendo en el puerto 2020"));
+app.listen(process.env.PORT || 2020, console.log("server listening on port http://localhost:2020 "));
 
 const public = path.resolve(__dirname, '../public')
 
